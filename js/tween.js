@@ -172,17 +172,34 @@ var scene_move = new ScrollMagic.Scene({
 
 console.log('move ok');
 //stellar init
-
-
 $('#container').stellar({
-
   horizontalOffset: 0,
   verticalOffset: 0,
-
-
 });
 
 
 
-
 });
+
+//Timelinemax
+$(function(){
+var tl = new TimelineMax(),
+    box = $('.animation_box'),
+    circle = $('.animation_circle'); 
+    
+
+tl.to( box ,0.5 ,{left: 100})
+  .to(circle ,0.5 ,{top: 200});
+  console.log('time ok');
+});
+
+$(function(){
+   
+    var circle_box = $('.circle');
+    
+    TimelineMax.staggerTo( circle_box , 1 , { left :  });
+    console.log('timeline ok');
+});
+
+
+

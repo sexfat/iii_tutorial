@@ -142,7 +142,7 @@ body {
     }
     .section_07 {
       .image_stellar{
-        background: url('https://unsplash.it/2048/500?image=1083') no-repeat;
+        background: url('https://unsplash.it/1024/300/?random') no-repeat;
         background-attachment: fixed;
         background-size: cover;
         display: table;
@@ -158,6 +158,41 @@ body {
 
         }
       }
+    }
+    .section_08 {
+         background-color: #dd0000;
+         .animation_box {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            background-color: #73db7a; 
+            top: 20px;
+            left: 10px;
+         } 
+         .animation_circle {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            background-color: #faff00; 
+            top: 100px;
+            left: 40px;
+         }
+    }
+
+    .section_09 {
+         background-color: peachpuff;
+         .wrapper {
+             position: relative;
+             top: 100px;
+             left: 150px;
+             .circle {
+                 width: 20px;
+                 height: 20px;
+                 background-color: #73db7a;
+                 border-radius: 20px;
+                 display : inline-block; 
+             }
+         }
     }
 }
 

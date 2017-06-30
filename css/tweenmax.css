@@ -5974,7 +5974,7 @@ body {
     padding-top: 150px;
     margin-left: -330px; }
 .wrapper .section_07 .image_stellar {
-  background: url("https://unsplash.it/2048/500?image=1083") no-repeat;
+  background: url("https://unsplash.it/1024/300/?random") no-repeat;
   background-attachment: fixed;
   background-size: cover;
   display: table;
@@ -5987,6 +5987,34 @@ body {
     font-size: 28px;
     padding-top: 150px;
     position: relative; }
+.wrapper .section_08 {
+  background-color: #dd0000; }
+  .wrapper .section_08 .animation_box {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #73db7a;
+    top: 20px;
+    left: 10px; }
+  .wrapper .section_08 .animation_circle {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background-color: #faff00;
+    top: 100px;
+    left: 40px; }
+.wrapper .section_09 {
+  background-color: peachpuff; }
+  .wrapper .section_09 .wrapper {
+    position: relative;
+    top: 100px;
+    left: 150px; }
+    .wrapper .section_09 .wrapper .circle {
+      width: 20px;
+      height: 20px;
+      background-color: #73db7a;
+      border-radius: 20px;
+      display: inline-block; }
 
 .gototop {
   top: 85%;
