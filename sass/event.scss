@@ -1,0 +1,117 @@
+@import "assets/var";
+@import "assets/mixin";
+@import "assets/font";
+@import "assets/page01";
+@import "assets/ifelse";
+// @import "layout/header";
+// @import "layout/footer";
+
+
+
+
+
+
+
+
+ // @for $i from 1 through 4 {
+//     .add-#{$i} {
+//         width: 10px*$i;
+//     }
+// }
+// @include margin_dis(bottom,100);
+//rwd  基本
+// @mixin max-mediaquery ($size) {
+//      @media screen and (max-width: $size + px){
+//         @content
+//     }
+// };
+// @mixin min-mediaquery ($size) {
+//      @media screen and (min-width: $size + px){
+//         @content
+//     }
+// };
+// @include max-mediaquery (480) {
+//     font-size: 20px;
+// }; //rwd  變化
+// @include respones(medium) {
+//     width: 100px;
+// };
+// @include respones(large) {
+//     width: 200px;
+// };
+// @include respones(small) {
+//     width: 80px;
+// };
+//
+// %red {
+//     color: #8b1212;
+//     margin-top: 10px;
+// }
+//
+// .margintop {
+//     margin-top: 10px;
+// }
+//
+// h1 {
+//     @extend %red;
+//     @extend .margintop;
+//     font-size: 34px;
+// }
+//
+// h2 {
+//     @extend %red;
+//     font-size: 24px;
+// }
+//
+// h1 {
+//     color: #db2020;
+//     font-size: 34px;
+// }
+//
+// h2 {
+//     color: #db2020;
+//     font-size: 24px;
+// }
+// // .aa {
+// //   font-size: 50px;
+// //   &.bb {
+// //     color: green;
+// //   }
+// //   .bb {
+// //      color: red;
+// //   }
+// //
+// // }
+//
+// .aa {
+//     font-size: 100px;
+//
+//     &.bb {
+//         color: green;
+//     }
+// }
+//
+// .link {
+//     font-size: 100px;
+//     text-decoration: none;
+//
+//     &:hover {
+//         text-decoration: overline;
+//     }
+// }
+//
+// .aa > .bb {
+//     font-size: 10px;
+// }
+//
+// $num :50;
+// .aa {
+//
+//   font: (12px / 2);
+//   font-size: 10px+ 2;
+//   padding-right: 2px / 4px + 3px;
+//   padding-top: 2px + 4px * 3;
+//   width: 3 * (6px / 2);
+//   height:  $num + px;
+//   margin-top: 40 * $num + rem;
+// }

@@ -1,0 +1,56 @@
+body {
+    font-size: $fontbase;
+}
+// ceil 無條件進入
+// floor 無條件捨去
+// round 四捨五入
+
+.wrapper {
+  
+    h1 {
+        font-size: round($fontbase * 3);
+    }
+
+    h2 {
+        font-size: round($fontbase * 2.5);
+    }
+
+    h3 {
+        font-size: round($fontbase *1.5);
+    }
+
+    h4 {
+        font-size: round($fontbase * 1);
+    }
+}
+
+.wrapper {
+    @include margin(10px,40px,90px,40px,100%);
+    // @import "../libs/bootstrap-sass/assets/stylesheets/bootstrap";
+    // @import "../libs/bootstrap-sass/assets/stylesheets/bootstrap";
+    h1 {
+        @include box-sizing(border-box);
+    }
+
+    .btn {
+        @include box-sizing(border-box);
+    }
+    @include margin_btn(1,10px,20px);
+    @include margin_btn(2,20px,20px);
+    @include margin_btn(3,40px,40px);
+
+    .content {
+        @include bg(#0b2e8e , cover) {
+            width: 120%;
+            height: 450px;
+        };
+    }
+}
+
+// .extends {
+//     width: 100px;
+//     color:#11ff7f;
+// }
+// .cover {
+//    @extend .extends;
+// }

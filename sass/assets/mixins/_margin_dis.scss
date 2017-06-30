@@ -1,0 +1,7 @@
+@mixin margin_dis($direction,$num) {
+     @for $i from 1 through $num{
+        .margin#{$direction}-#{$i} {
+            margin-#{$direction}: 1px*$i;
+        }
+    }
+}

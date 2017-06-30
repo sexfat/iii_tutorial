@@ -1,0 +1,13 @@
+$width: 99px;
+$height: 80px;
+
+.cover {
+    @if ($width>100px) {
+      width:$width;
+      height:$height;
+    }
+    @else {
+      width: ceil($width / 2);
+      height:ceil($height / 2);
+    }
+}

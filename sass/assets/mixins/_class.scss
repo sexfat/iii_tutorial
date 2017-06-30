@@ -1,0 +1,6 @@
+@mixin margin_btn($num,$left,$right) {
+    .btn_#{$num}{
+        margin-left:$left ;
+        margin-right:$right ;
+    }
+}
